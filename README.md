@@ -65,7 +65,7 @@ src/
    Create a `.env` file in the root:
 
    ```
-   REACT_APP_GEMINI_API_KEY=your_api_key_here
+   GEMINI_API_KEY=your_api_key_here
    ```
 
 4. Start the development server:
@@ -84,31 +84,3 @@ src/
 - Modern JavaScript (ES6+)
 
 ---
-
-## 🧪 Development Notes
-
-- All logic and state are distributed across their respective components.
-- Styles are shared globally via `App.css`.
-- Gemini API is used via `@google/generative-ai` package.
-- Ensure `.env` values are prefixed with `REACT_APP_` for React to read them.
-
----
-
-## 📌 Environment Setup
-
-- Node.js >= 14
-- NPM >= 6
-- Internet connection for Gemini API
-
----
-
-## 🙏 Credits
-
-- Gemini by Google
-- Bing Images for sample avatars/icons
-
----
-
-## 📜 License
-
-MIT © 2025 YourName
